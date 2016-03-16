@@ -2,15 +2,16 @@
 layout: post
 title: "hello world"
 description: ""
-category: 
-tags: []
+category: sample
+tags: [hello]
 ---
 {% include JB/setup %}
 
+이건 뭐지??? 
 
-{% highlight ruby %}
-desc "Launch preview environment"
-task :preview do
-  system "jekyll --auto --server"
-end # task :preview
-{% endhighlight %}
+## markdown 
+### 새로운 줄 추가 
+
+	- ggggg
+	- hhhhh
+
